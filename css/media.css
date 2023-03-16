@@ -61,19 +61,19 @@
         margin-bottom: calc(55px + (90 - 55) * ((100vw - 320px) / (1140 - 320)));
     }
 
-    text-display {
+    .runline__body {
         font-size: calc(12px + (48 - 12) * ((100vw - 320px) / (1140 - 320)));
     }
 
-    text-display {
+    .runline__body {
         padding-top: calc(10px + (16 - 10) * ((100vw - 320px) / (1140 - 320)));
     }
 
-    text-display {
+    .runline__body {
         padding-bottom: calc(10px + (16 - 10) * ((100vw - 320px) / (1140 - 320)));
     }
 
-    text-display {
+    .runline__body {
         margin-bottom: calc(50px + (100 - 50) * ((100vw - 320px) / (1140 - 320)));
     }
 

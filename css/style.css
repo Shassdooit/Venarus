@@ -800,7 +800,8 @@ body._lock {
 /* ____runline____ */
 
 
-text-display {
+.runline__body {
+    display: flex;
     margin-top: 50px;
     margin-bottom: 100px;
     padding: 16px 0;
@@ -810,14 +811,13 @@ text-display {
     font-size: 48px;
     text-transform: uppercase;
     cursor: pointer;
-    color: #590D56;
-    white-space: nowrap;
-    display: flex;
     overflow: hidden;
     white-space: nowrap;
+    white-space: nowrap;
+    color: #590D56;
 }
 
-text-display::before, text-display::after {
+.runline__body::before, .runline__body::after {
     content: attr(text) "\a0";
     min-width: 100%;
     will-change: transform;
@@ -833,9 +833,6 @@ text-display::before, text-display::after {
     }
 }
 
-.runline__mobile {
-    display: none;
-}
 
 /* ___advant__ */
 
